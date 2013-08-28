@@ -2,16 +2,34 @@
 
 ## About
 
-_Note: idea/project at very early stage_ 
+_Note: idea/project at very early stage_
 
-jQuery Microtools is a plugin for [jQuery](https://github.com/jquery/jquery) that aims to extend jQuery with some useful functions/psudo-selectors potentially needed... somewhere where fine tuning layouts matters. It is not officially registered with the 
+jQuery Microtools is a plugin for [jQuery](https://github.com/jquery/jquery) that aims to extend jQuery with some useful functions/psudo-selectors potentially needed... somewhere where fine tuning layouts matters. It is not officially registered with the
 jQuery plugin registry yet.
+
+## Usage
 
 Currently implemented:
 
 * pseudo-selector for fetching elements with current content overflow on any axis: `:mt-overflow`
 * pseudo-selector for fetching elements with current content overflow on x-axis: `:mt-overflow-x`
 * pseudo-selector for fetching elements with current content overflow on y-axis: `:mt-overflow-y`
+
+Example for marking specific elements with a red border by using mt-overflow pseudo-slector:
+
+In your main script:
+```
+$(document).ready(function() {
+    $('.container:mt-overflow').addClass('overflow-warning');
+});
+```
+
+In your CSS definitions:
+```
+.overflow-warning {
+    border-color: 1px dotted red;
+}
+```
 
 pseudo-selectors are prefixed with `mt-` for reducing the risk of potential namespace-clashes.
 
