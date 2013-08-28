@@ -4,8 +4,9 @@
 
 _Note: idea/project at very early stage_
 
-jQuery Microtools is a plugin for [jQuery](https://github.com/jquery/jquery) that aims to extend jQuery with some useful functions/psudo-selectors potentially needed... somewhere where fine tuning layouts matters. It is not officially registered with the
-jQuery plugin registry yet.
+jQuery Microtools is a plugin for [jQuery](https://github.com/jquery/jquery) that aims to extend jQuery with some
+useful functions/psudo-selectors potentially needed somewhere... let's say: if fine tuning layouts matters.
+It is not officially registered with the jQuery plugin registry yet.
 
 ## Usage
 
