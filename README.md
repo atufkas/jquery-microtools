@@ -15,12 +15,12 @@ Currently implemented:
 * pseudo-selector for fetching elements with current content overflow on x-axis: `:mt-overflow-x`
 * pseudo-selector for fetching elements with current content overflow on y-axis: `:mt-overflow-y`
 
-Example for marking specific elements with a red border by using mt-overflow pseudo-slector:
+Example for styling all elements having class _myclass_ applied with a red border by using mt-overflow pseudo-selector:
 
 In your main script:
 ```
 $(document).ready(function() {
-    $('.container:mt-overflow').addClass('overflow-warning');
+    $('.myclass:mt-overflow').addClass('overflow-warning');
 });
 ```
 
