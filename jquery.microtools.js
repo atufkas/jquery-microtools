@@ -7,7 +7,7 @@
 (function($) {
   
   function isOverflown(e,axis) {
-    var ox = e.scrollWidth > e.clientWidth + 20;
+    var ox = e.scrollWidth > e.clientWidth;
     var oy = e.scrollHeight > e.clientHeight;
     
     switch(axis) {
