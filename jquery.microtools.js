@@ -2,7 +2,7 @@
  * jQuery Microtools - (c) Matthias Lienau
  * License: [The MIT License](http://opensource.org/licenses/MIT)
  * github.com/atufkas
- * www.mlienau.de
+ * www.matthiaslienau.de
  */
 (function($) {
   
